@@ -1,0 +1,339 @@
+      <!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MY CV</title>
+	</head>
+	<body>
+		<header>
+			<div class="img-container">
+				<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/370193603_727609819275470_2954214001236876913_n.png?stp=dst-png_p403x403&_nc_cat=103&ccb=1-7&_nc_sid=510075&_nc_ohc=mgfnYjl59owAX8buNCO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQVZgnChJbQMNM85bmlUraeJR-FrX22dP_-oyvQhWjTTw&oe=6582F69E" width="200px" height="200px" >
+				
+				
+			</div>
+			<div class="title-container">
+				<h1>Nguyễn Thị  Nhật Hạ</h1>
+				<h2>Student of information technology department at Ho Chi Minh City University of Education</h2>
+			</div>
+		</header>
+		
+
+
+		
+<!--Phần CSS-->		
+		<style>
+			body{
+    margin: 0;
+    background-color: black;
+  }
+  
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    padding: 20px 0;
+    background-color:rgb(250, 209, 216);
+    display: flex;
+  }
+  /* 
+  p{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+  } */
+  
+  .text-content{
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  
+  
+  .title-container{
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .title-container h1, .title-container h2{
+    color: rgb(228, 138, 138);
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .title-container h2{
+    font-size: 18px;
+    
+    color:rgb(228, 138, 138);
+    
+    margin-top: 10px;
+  }
+  
+  .img, .avatar{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  .container{
+    padding: 20px;
+    background-color:whitesmoke;
+    display: flex;
+  
+  }
+  
+  .sider, .content{
+     background-color:rgb(250, 230, 233);
+      padding: 20px 0;
+      width: 100%;
+  }
+  
+  .sider {
+    width: calc(40% - 20px);
+    margin-right: 20px;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .tag-fill{
+    background-color: rgb(245, 129, 196);
+    padding: 8px 20px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  
+  .tag-content {
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .tag-content ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tag-content ul li {
+    list-style-type: none;
+    padding: 8px 0
+  }
+  
+  .progress-container {
+    width: 80%;
+  }
+  
+  .progress-title{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .progress-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: #F2F2F2;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .progress{
+    width: 50%;
+    height: 10px;
+    background-color: rgb(175, 223, 255);
+  }
+  
+  .tag{
+    font-size: 18px;
+    color: black   ;
+    padding: 10px 20px;
+    border-left: 18px solid rgb(245, 129, 196);
+    margin-bottom: 20px;
+  }
+  
+  .tabbar-title{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .tabbar-title .text-content {
+    font-weight: 600;
+    color: black;
+  }
+  
+  .content ul {
+    padding: 0;
+  }
+  
+  .content ul li {
+    list-style-type: none;
+  }
+  
+  .text-date {
+    padding: 0 20px;
+    color: #6E6E6E;
+    font-style: italic;
+  }
+  
+  .description-content h3{
+    padding: 0 20px;
+    margin-bottom: 8px;
+  }
+  
+  .description-content ul {
+    padding-left: 40px ;
+  }
+  
+  .description-content ul li{
+    text-align: justify;
+    list-style-type: none
+  }
+  
+  .description-content ul li ul li{
+    text-align: justify;
+    list-style-type: square;
+    margin-bottom: 16px;
+  }
+  a {
+    color: rgb(207, 61, 73), 46, 150);
+    text-decoration: none;
+  }
+  
+		</style>
+
+<!--Phần CSS-->
+
+
+
+
+<!--LIÊN HỆ-->
+		<div class="container">
+			<div class="sider">
+				<div class="sider-content">
+					<h1 class="tag-fill">Liên hệ</h1>
+					<div class="tag-content">
+						<ul style="color: black;"> 
+                            
+							<li><a  href="https://www.facebook.com/nguyenha2145" target="_blank" >Facebook:</a> Nguyen Nhat Ha </li>
+							<li><a href="https://zaloapp.com/qr/p/9vs92trye5wt"target="_blank"> Zalo:</a> Nguyễn Hạ </li>
+							<li><a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">Gmail:</a> nguyenha2145@gmail.com </li>
+							
+						</ul>
+					</div>
+				</div>  
+
+<!--KĨ NĂNG-->
+				<div class="sider-content">
+					<h1 class="tag-fill">Kĩ năng</h1>
+					<div class="tag-content progress-container">
+						<p class="progress-title">Tin học văn phòng</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 70%"></div>
+						</div>
+					</div>
+					<div class="tag-content progress-container">
+						<p class="progress-title">Lập trình</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 60%"></div>
+						</div>
+					</div>
+					<div class="tag-content progress-container">
+						<p class="progress-title">Tiếng Anh</p>
+						<div class="progress-wrap">
+							<div class="progress" style="width: 70%"></div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="sider-content">
+					<h1 class="tag-fill">Chứng chỉ</h1>
+					<div class="tag-content">
+						
+						<ul class="text-content">
+							<li>- Microsoft Technology Associate </li>
+                            <li>- CompTIA IT Fundamentals+</li>
+                            <li>- MOS </li>
+                            <li>- CompTIA Security+</li>
+							<li>-IELTS: 6.5</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<div>
+					<h1 class="tag">Giới thiệu</h1>
+					<p class="text-content">
+						            Là một sinh viên của Trường Đại học Sư phạm Thành phố Hố Chí Minh, 
+                        em luôn mang trong mình 1 tinh thần ham học hỏi và làm việc nghiêm túc
+                        để mang lại những kết quả tốt nhất.    
+					</p>
+				</div>
+				<div class="description-content">
+					<h1 class="tag">Kinh nghiệm làm việc</h1>
+					<ul>
+						<li>
+							<div class="tabbar-title">
+								<p class="text-content">CÔNG TY THE SUN</p>
+								<p class="text-date">03/2018 - 05/2020</p>
+							</div>
+							<h3>Nhân viên hỗ trợ</h3>
+							<p class="text-content">-Vai trò</p>
+                                <ul>
+                                    <li>Tiếp nhận công việc và hỗ trợ các dự án của công ty</li>
+                                    <li>Phân tích, đặc tả chức năng theo nghiệp vụ để xây dựng các phần mềm </li>
+                                    <li>Kiểm tra chức năng phần mềm theo nghiệp của từng chương trình</li>
+                                </ul>
+
+
+							
+						</li>
+					</ul>
+				</div>
+				<div class="description-content">
+					<h1 class="tag">HỌC VẤN</h1>
+					<ul>
+						<li>
+							<div class="tabbar-title">
+								<p class="text-content"></p>
+								<p class="text-date"> </p>
+							</div>
+							<h3>Sinh viên Sư phạm Tin học</h3>
+							<p class="text-content">
+								
+							</p>
+							<ul>    
+								<li>
+									Trường/ nơi đào tạo: Trường Đại học Sư phạm thành phố Hồ Chí Minh
+								</li>
+								<li>
+									Xếp loại: Xuất sắc
+								</li>
+								<li>
+									Khoa: Công nghệ thông tin
+								</li>
+								<li>
+									Ngành: Sư phạm Tin học
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
